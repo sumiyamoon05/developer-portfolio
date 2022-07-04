@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50pxs;
+    font-size: 100pxs;
 }
 .name-color{
     color: orangered;
@@ -15,6 +15,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 8%;
 }
 .half-width img{
    width: 80%;
@@ -31,4 +32,18 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(orange,orangered);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
 }
